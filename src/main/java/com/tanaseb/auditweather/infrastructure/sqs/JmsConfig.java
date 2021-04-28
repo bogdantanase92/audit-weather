@@ -38,7 +38,7 @@ public class JmsConfig {
 	}
 
 	@Bean
-	public JmsTemplate defaultJmsTemplate() {
+	public JmsTemplate jmsTemplate() {
 		return new JmsTemplate(connectionFactory());
 	}
 
